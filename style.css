@@ -2,7 +2,7 @@
 
 
 body {
-  background-image: url("/images/giphy.gif") ;
+  background-image: url("./images/giphy.gif") ;
   background-color: #cccccc;
   color: #d8e5ed;
   font-family: 'Comfortaa', cursive;
@@ -32,7 +32,7 @@ a:hover {
 }
 /* Custom design: using 99% of classes and 1% id to adjust */
 .card{
-  background-image: url("/images/fond.jpg");
+  background-image: url("./images/fond.jpg");
   background-position: center;
 
   width: 500px;
@@ -82,7 +82,7 @@ a:hover {
 }
 
 .pingouin {
-  background-image: url("/images/button.png")!important;
+  background-image: url("./images/button.png")!important;
 }
 
 svg{
