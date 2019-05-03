@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim|Comfortaa');
+
+
+body {
+  background-image: url("/images/giphy.gif") ;
+  background-color: #cccccc;
+  color: #d8e5ed;
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  font-weight: lighter;
+}
+h1, h2 {
+  font-weight: #6175c4;
+  font-family: 'Akronim', cursive;
+  letter-spacing: 2px;
+}
+h1 {
+  font-size: 24px;
+  color: #4f6b7c;
+}
+h2 {
+  font-size: 64px;
+  color: #6175c4;
+}
+a {
+  text-decoration: none;
+  color: #5C67E1;
+  font-weight: 900;
+}
+a:hover {
+  color: #20AB73;
+}
+/* Custom design: using 99% of classes and 1% id to adjust */
+.card{
+  background-image: url("/images/fond.jpg");
+  background-position: center;
+
+  width: 500px;
+  margin: 24px auto;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  color: white;
+  background-color: #6175c4;
+  border-radius: 4px;
+  padding: 16px 24px;
+  border: 1px solid transparent;
+}
+.btn-blue:hover {
+  border: 1px solid #5C67E1;
+  color: #5C67E1;
+  background-color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 0 16px;
+}
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 700px
+  margin: 50px auto;
+  display: block;
+}
+/* Adjustment Design: using 1% of ids: design that will not be reused (the blue button will not always have a margin bottom); */
+#intro p {
+  margin-bottom: 40px;
+}
+#footer a {
+  font-size: 48px;
+}
+
+.pingouin {
+  background-image: url("/images/button.png")!important;
+}
+
+svg{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+
+   g{
+     -webkit-filter: url(#edge-cleaner);
+     filter: url(#edge-cleaner);
+   }
+ }
